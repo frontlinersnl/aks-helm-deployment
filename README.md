@@ -1,6 +1,6 @@
 # aks-helm-deployment
 
-[![logo](./inforit-logo.jpg)](https://inforit.nl)
+[![logo](./frontliners-logo.png)](https://www.frontliners.nl)
 
 Container for Helm deployments to an Azure Kubernetes (AKS) cluster.
 
@@ -10,18 +10,18 @@ Container for Helm deployments to an Azure Kubernetes (AKS) cluster.
 2. build local version:
 
     ```sh
-    docker build -t inforitnl/aks-helm-deployment .
+    docker build -t frontliners/aks-helm-deployment .
     ```
 
 3. push new version to dockerhub:
 
     ```sh
-    docker push inforitnl/aks-helm-deployment
+    docker push frontliners/aks-helm-deployment
     ```
 
 4. tag and push again (optional but recommended):
 
     ```sh
-    docker tag inforitnl/aks-helm-deployment inforitnl/aks-helm-deployment:1
-    docker push inforitnl/aks-helm-deployment:1
+    docker tag frontliners/aks-helm-deployment frontliners/aks-helm-deployment:1
+    docker push frontliners/aks-helm-deployment:1
     ```
