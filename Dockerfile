@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/azure-cli
 
 # Install Kubectl + Kubectl login
+# Install the CLI tools for AKS, which include kubectl and kubectl login. See https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-install-cli
 RUN az aks install-cli
 
 # Note: Latest version of helm may be found at:
